@@ -1,0 +1,39 @@
+#nullable enable
+Microsoft.AspNetCore.Authentication.Line.LineChallengeProperties
+Microsoft.AspNetCore.Authentication.Line.LineChallengeProperties.LineChallengeProperties() -> void
+Microsoft.AspNetCore.Authentication.Line.LineChallengeProperties.IncludeGrantedScopes.get -> bool?
+Microsoft.AspNetCore.Authentication.Line.LineChallengeProperties.IncludeGrantedScopes.set -> void
+Microsoft.AspNetCore.Authentication.Line.LineDefaults
+Microsoft.AspNetCore.Authentication.Line.LineHandler
+Microsoft.AspNetCore.Authentication.Line.LineOptions
+Microsoft.AspNetCore.Authentication.Line.LineOptions.LineOptions() -> void
+Microsoft.Extensions.DependencyInjection.LineExtensions
+~Microsoft.AspNetCore.Authentication.Line.LineChallengeProperties.AccessType.get -> string
+~Microsoft.AspNetCore.Authentication.Line.LineChallengeProperties.AccessType.set -> void
+~Microsoft.AspNetCore.Authentication.Line.LineChallengeProperties.ApprovalPrompt.get -> string
+~Microsoft.AspNetCore.Authentication.Line.LineChallengeProperties.ApprovalPrompt.set -> void
+~Microsoft.AspNetCore.Authentication.Line.LineChallengeProperties.LineChallengeProperties(System.Collections.Generic.IDictionary<string, string> items) -> void
+~Microsoft.AspNetCore.Authentication.Line.LineChallengeProperties.LineChallengeProperties(System.Collections.Generic.IDictionary<string, string> items, System.Collections.Generic.IDictionary<string, object> parameters) -> void
+~Microsoft.AspNetCore.Authentication.Line.LineChallengeProperties.LoginHint.get -> string
+~Microsoft.AspNetCore.Authentication.Line.LineChallengeProperties.LoginHint.set -> void
+~Microsoft.AspNetCore.Authentication.Line.LineChallengeProperties.Prompt.get -> string
+~Microsoft.AspNetCore.Authentication.Line.LineChallengeProperties.Prompt.set -> void
+~Microsoft.AspNetCore.Authentication.Line.LineHandler.LineHandler(Microsoft.Extensions.Options.IOptionsMonitor<Microsoft.AspNetCore.Authentication.Line.LineOptions> options, Microsoft.Extensions.Logging.ILoggerFactory logger, System.Text.Encodings.Web.UrlEncoder encoder, Microsoft.AspNetCore.Authentication.ISystemClock clock) -> void
+~Microsoft.AspNetCore.Authentication.Line.LineOptions.AccessType.get -> string
+~Microsoft.AspNetCore.Authentication.Line.LineOptions.AccessType.set -> void
+~const Microsoft.AspNetCore.Authentication.Line.LineDefaults.AuthenticationScheme = "Line" -> string
+~override Microsoft.AspNetCore.Authentication.Line.LineHandler.BuildChallengeUrl(Microsoft.AspNetCore.Authentication.AuthenticationProperties properties, string redirectUri) -> string
+~override Microsoft.AspNetCore.Authentication.Line.LineHandler.CreateTicketAsync(System.Security.Claims.ClaimsIdentity identity, Microsoft.AspNetCore.Authentication.AuthenticationProperties properties, Microsoft.AspNetCore.Authentication.OAuth.OAuthTokenResponse tokens) -> System.Threading.Tasks.Task<Microsoft.AspNetCore.Authentication.AuthenticationTicket>
+~static Microsoft.Extensions.DependencyInjection.LineExtensions.AddLine(this Microsoft.AspNetCore.Authentication.AuthenticationBuilder builder) -> Microsoft.AspNetCore.Authentication.AuthenticationBuilder
+~static Microsoft.Extensions.DependencyInjection.LineExtensions.AddLine(this Microsoft.AspNetCore.Authentication.AuthenticationBuilder builder, System.Action<Microsoft.AspNetCore.Authentication.Line.LineOptions> configureOptions) -> Microsoft.AspNetCore.Authentication.AuthenticationBuilder
+~static Microsoft.Extensions.DependencyInjection.LineExtensions.AddLine(this Microsoft.AspNetCore.Authentication.AuthenticationBuilder builder, string authenticationScheme, System.Action<Microsoft.AspNetCore.Authentication.Line.LineOptions> configureOptions) -> Microsoft.AspNetCore.Authentication.AuthenticationBuilder
+~static Microsoft.Extensions.DependencyInjection.LineExtensions.AddLine(this Microsoft.AspNetCore.Authentication.AuthenticationBuilder builder, string authenticationScheme, string displayName, System.Action<Microsoft.AspNetCore.Authentication.Line.LineOptions> configureOptions) -> Microsoft.AspNetCore.Authentication.AuthenticationBuilder
+~static readonly Microsoft.AspNetCore.Authentication.Line.LineChallengeProperties.AccessTypeKey -> string
+~static readonly Microsoft.AspNetCore.Authentication.Line.LineChallengeProperties.ApprovalPromptKey -> string
+~static readonly Microsoft.AspNetCore.Authentication.Line.LineChallengeProperties.IncludeGrantedScopesKey -> string
+~static readonly Microsoft.AspNetCore.Authentication.Line.LineChallengeProperties.LoginHintKey -> string
+~static readonly Microsoft.AspNetCore.Authentication.Line.LineChallengeProperties.PromptParameterKey -> string
+~static readonly Microsoft.AspNetCore.Authentication.Line.LineDefaults.AuthorizationEndpoint -> string
+~static readonly Microsoft.AspNetCore.Authentication.Line.LineDefaults.DisplayName -> string
+~static readonly Microsoft.AspNetCore.Authentication.Line.LineDefaults.TokenEndpoint -> string
+~static readonly Microsoft.AspNetCore.Authentication.Line.LineDefaults.UserInformationEndpoint -> string
